@@ -16,7 +16,7 @@
  (synopsis "Collect activity as markdown")
  (depends
   (cmdliner
-   (>= 1.1.1))
+   (and (>= 1.1.1) (< 2)))
   dune-build-info
   fmt
   logs
