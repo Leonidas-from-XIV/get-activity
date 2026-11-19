@@ -34,7 +34,8 @@
   (fmt
    (>= 0.8.7))
   logs
-  ppx_yojson_conv
+  (ppx_yojson_conv
+   (>= v0.14.0))
   (yojson
    (>= 1.6))
   (ocaml
