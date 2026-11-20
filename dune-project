@@ -16,7 +16,7 @@
  (synopsis "Collect activity as markdown")
  (depends
   (cmdliner
-   (>= 1.1.1))
+   (and (>= 1.1.1) (< 2)))
   dune-build-info
   fmt
   logs
@@ -34,7 +34,8 @@
   (fmt
    (>= 0.8.7))
   logs
-  ppx_yojson_conv
+  (ppx_yojson_conv
+   (>= v0.14.0))
   (yojson
    (>= 1.6))
   (ocaml
